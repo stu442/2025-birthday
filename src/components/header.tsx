@@ -1,11 +1,27 @@
 import Description from "./description";
 
+import { useState } from "react";
+import Firework from "./firework";
+
 export default function Header() {
+  const [showFirework, setShowFirework] = useState(false);
+
+  const handleTitleClick = () => {
+    setShowFirework(true);
+    // 3초 후에 폭죽 효과 숨기기 (firework 컴포넌트의 duration과 동일)
+    setTimeout(() => {
+      setShowFirework(false);
+    }, 3000);
+  };
   return (
     <>
-      <h1 className="text-4xl font-bold text-lime-300 mb-8">
+      <h1
+        className="text-4xl font-bold text-lime-300 mb-8 cursor-pointer"
+        onClick={handleTitleClick}
+      >
         2025년 선물 교환식
       </h1>
+      {showFirework && <Firework />}
       <Description>
         <p>선물에 나만의 색이 담기길 원했습니다.</p>
         <p>이런 선물은 저밖에 못하니까요?</p>
