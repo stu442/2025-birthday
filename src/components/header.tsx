@@ -3,7 +3,6 @@ import Description from "./description";
 import { useState } from "react";
 import Firework from "./firework";
 import { NumberTicker } from "./ui/number-ticker";
-import { WordRotate } from "./ui/word-rotate";
 
 export default function Header() {
   const [showFirework, setShowFirework] = useState(false);
