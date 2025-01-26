@@ -1,50 +1,68 @@
-# React + TypeScript + Vite
+# 2025년 선물 교환식 웹사이트 🎁
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+새해 선물 교환을 위한 인터랙티브 웹사이트입니다. LUSH 제품과 책 선물에 대한 설명을 담고 있습니다.
 
-Currently, two official plugins are available:
+## 주요 기능
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎆 제목 클릭시 폭죽 효과 애니메이션
+- 📱 반응형 디자인
+- 🖼️ 원형 이미지 컴포넌트
+- 📝 설명 텍스트 컴포넌트
 
-## Expanding the ESLint configuration
+## 기술 스택
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React 18
+- TypeScript
+- Tailwind CSS
+- Vite
+- react-canvas-confetti (폭죽 효과)
 
-- Configure the top-level `parserOptions` property like this:
+## 시작하기
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+1. 저장소 클론
+```bash
+git clone [repository-url]
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+2. 의존성 설치
+```bash
+npm install
+# or
+yarn install
 ```
+
+3. 개발 서버 실행
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+4. 빌드
+```bash
+npm run build
+# or
+yarn build
+```
+
+## 프로젝트 구조
+
+```
+src/
+├── assets/         # 이미지 파일
+├── components/     # 재사용 가능한 컴포넌트
+├── lib/           # 유틸리티 함수
+└── main.tsx       # 앱 진입점
+```
+
+## 컴포넌트
+
+- `Header`: 타이틀과 폭죽 효과를 포함한 헤더 컴포넌트
+- `CircleImage`: 원형 이미지 표시 컴포넌트
+- `Description`: 텍스트 설명을 위한 컴포넌트
+- `Firework`: 폭죽 애니메이션 효과 컴포넌트
+
+## 환경 설정
+
+- Node.js 18+ 버전 필요
+- 모던 브라우저 지원 (Chrome, Firefox, Safari, Edge)

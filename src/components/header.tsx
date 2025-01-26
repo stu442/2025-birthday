@@ -2,6 +2,8 @@ import Description from "./description";
 
 import { useState } from "react";
 import Firework from "./firework";
+import { NumberTicker } from "./ui/number-ticker";
+import { WordRotate } from "./ui/word-rotate";
 
 export default function Header() {
   const [showFirework, setShowFirework] = useState(false);
@@ -16,11 +18,14 @@ export default function Header() {
   return (
     <>
       <h1
-        className="text-4xl font-bold text-lime-300 mb-8 cursor-pointer"
+        className="flex text-4xl font-bold text-lime-300 mb-8 cursor-pointer"
         onClick={handleTitleClick}
       >
-        2025년 선물 교환식
+        <NumberTicker value={2025} delay={1} className="text-4xl font-bold text-lime-300" />년
+        선물
+        교환식
       </h1>
+      
       {showFirework && <Firework />}
       <Description>
         <p>선물에 나만의 색이 담기길 원했습니다.</p>
