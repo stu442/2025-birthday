@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import Header from "./components/header";
 import CircleImage from "./components/CircleImage";
 import superMilk from "./assets/super_milk.png";
@@ -80,6 +81,7 @@ export default function Home() {
         </p>
         <p>여러분들에게도 도움이 될겁니다.</p>
       </Description>
+      <Analytics />
     </div>
   );
 }
