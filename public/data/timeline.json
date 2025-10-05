@@ -7,17 +7,17 @@
       "2025년 추석, 아보카도에 다녀왔다."
     ],
     "media": [
-      { "type": "image", "src": "/src/assets/2025_10_04/IMG_6688.jpeg", "alt": "아보카도 여행 사진 1" },
-      { "type": "image", "src": "/src/assets/2025_10_04/IMG_6690.jpeg", "alt": "아보카도 여행 사진 2" },
-      { "type": "image", "src": "/src/assets/2025_10_04/IMG_6692.jpeg", "alt": "아보카도 여행 사진 3" },
-      { "type": "image", "src": "/src/assets/2025_10_04/IMG_6696.jpeg", "alt": "아보카도 여행 사진 4" },
-      { "type": "image", "src": "/src/assets/2025_10_04/IMG_6697.jpeg", "alt": "아보카도 여행 사진 5" },
-      { "type": "image", "src": "/src/assets/2025_10_04/IMG_6699.jpeg", "alt": "아보카도 여행 사진 6" },
-      { "type": "image", "src": "/src/assets/2025_10_04/IMG_6709.jpeg", "alt": "아보카도 여행 사진 7" },
-      { "type": "image", "src": "/src/assets/2025_10_04/IMG_6718.jpeg", "alt": "아보카도 여행 사진 8" },
-      { "type": "image", "src": "/src/assets/2025_10_04/IMG_6723.jpeg", "alt": "아보카도 여행 사진 9" },
-      { "type": "image", "src": "/src/assets/2025_10_04/IMG_6725.jpeg", "alt": "아보카도 여행 사진 10" },
-      { "type": "video", "src": "/src/assets/2025_10_04/IMG_6680.mov", "alt": "아보카도 여행 영상" }
+      { "type": "image", "src": "/timeline/2025-10-04/IMG_6688.jpeg", "alt": "아보카도 여행 사진 1" },
+      { "type": "image", "src": "/timeline/2025-10-04/IMG_6690.jpeg", "alt": "아보카도 여행 사진 2" },
+      { "type": "image", "src": "/timeline/2025-10-04/IMG_6692.jpeg", "alt": "아보카도 여행 사진 3" },
+      { "type": "image", "src": "/timeline/2025-10-04/IMG_6696.jpeg", "alt": "아보카도 여행 사진 4" },
+      { "type": "image", "src": "/timeline/2025-10-04/IMG_6697.jpeg", "alt": "아보카도 여행 사진 5" },
+      { "type": "image", "src": "/timeline/2025-10-04/IMG_6699.jpeg", "alt": "아보카도 여행 사진 6" },
+      { "type": "image", "src": "/timeline/2025-10-04/IMG_6709.jpeg", "alt": "아보카도 여행 사진 7" },
+      { "type": "image", "src": "/timeline/2025-10-04/IMG_6718.jpeg", "alt": "아보카도 여행 사진 8" },
+      { "type": "image", "src": "/timeline/2025-10-04/IMG_6723.jpeg", "alt": "아보카도 여행 사진 9" },
+      { "type": "image", "src": "/timeline/2025-10-04/IMG_6725.jpeg", "alt": "아보카도 여행 사진 10" },
+      { "type": "video", "src": "/timeline/2025-10-04/IMG_6680.mov", "alt": "아보카도 여행 영상", "poster": "/timeline/2025-10-04/IMG_6688.jpeg" }
     ],
     "tags": ["추석", "아보카도", "기록"]
   }
