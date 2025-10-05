@@ -1,5 +1,7 @@
+import type { ReactNode } from "react";
+
 interface DescriptionProps {
-  children: React.ReactNode;
+  children: ReactNode;
 }
 
 export default function Description({ children }: DescriptionProps) {

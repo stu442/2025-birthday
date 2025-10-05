@@ -1,16 +1,16 @@
-import { Analytics } from "@vercel/analytics/react"
-import Header from "./components/header";
-import CircleImage from "./components/CircleImage";
-import superMilk from "./assets/super_milk.png";
-import magicCrystals from "./assets/magic_crystals.png";
-import myself from "./assets/myself.jpeg";
-import human from "./assets/human.jpeg";
+import { Analytics } from "@vercel/analytics/react";
+import superMilk from "@/assets/super_milk.png";
+import magicCrystals from "@/assets/magic_crystals.png";
+import myself from "@/assets/myself.jpeg";
+import human from "@/assets/human.jpeg";
+import HeroHeader from "./hero-header";
 import Description from "./components/description";
+import CircleImage from "@/components/CircleImage";
 
-export default function Home() {
+export default function Birthday() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center px-8 py-16">
-      <Header />
+    <div className="flex w-full flex-col items-center justify-center px-8 py-16">
+      <HeroHeader />
       <h3 className="text-2xl text-white font-bold mt-16 mb-4">LUSH 제품</h3>
       <Description>
         <p>설명할 필요 없이 저는 러쉬 처돌이입니다.</p>

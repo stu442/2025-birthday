@@ -1,56 +1,37 @@
-import Description from "./description";
+import { NavLink } from "react-router-dom";
 
-import { useState } from "react";
-import Firework from "./firework";
-import { NumberTicker } from "./ui/number-ticker";
+const NAV_ITEMS = [
+  { label: "생일", to: "/" },
+  { label: "타임라인", to: "/timeline" },
+  { label: "메모", to: "/memo" },
+  { label: "Recap", to: "/recap" },
+] as const;
 
 export default function Header() {
-  const [showFirework, setShowFirework] = useState(false);
-
-  const handleTitleClick = () => {
-    setShowFirework(true);
-    // 3초 후에 폭죽 효과 숨기기 (firework 컴포넌트의 duration과 동일)
-    setTimeout(() => {
-      setShowFirework(false);
-    }, 3000);
-  };
   return (
-    <>
-      <h1
-        className="flex text-4xl font-bold text-lime-300 mb-8 cursor-pointer"
-        onClick={handleTitleClick}
-      >
-        <NumberTicker value={2025} delay={1} className="text-4xl font-bold text-lime-300" />년
-        선물
-        교환식
-      </h1>
-      
-      {showFirework && <Firework />}
-      <Description>
-        <p>선물에 나만의 색이 담기길 원했습니다.</p>
-        <p>이런 선물은 저밖에 못하니까요?</p>
-        <p>그래서 올해 선물은 </p>
-        <p>
-          <span className="font-semibold bg-lime-300/30 px-2 py-0.5 rounded">
-            웹
-          </span>{" "}
-          /{" "}
-          <span className="font-semibold bg-lime-300/30 px-2 py-0.5 rounded">
-            LUSH
-          </span>{" "}
-          /{" "}
-          <span className="font-semibold bg-lime-300/30 px-2 py-0.5 rounded">
-            글
-          </span>{" "}
-          /{" "}
-          <span className="font-semibold bg-lime-300/30 px-2 py-0.5 rounded">
-            마술
-          </span>{" "}
-        </p>
-        <p>이 컨셉이죠.</p>
-        <p>사실 여러분의 선호는 그 다음이었습니다.</p>
-        <p>감사합니다.</p>
-      </Description>
-    </>
+    <header className="w-full border-b border-white/10 bg-black/30">
+      <nav className="mx-auto flex max-w-4xl items-center justify-between gap-4 px-6 py-4 text-sm text-white">
+        <span className="text-base font-semibold tracking-wide text-lime-300 cursor-pointer" onClick={() => window.location.href = "/"}>
+          어벤져스 어셈블
+        </span>
+        <ul className="flex items-center gap-6">
+          {NAV_ITEMS.map((item) => (
+            <li key={item.to}>
+              <NavLink
+                to={item.to}
+                className={({ isActive }) =>
+                  `transition-colors hover:text-lime-300 focus-visible:text-lime-300 ${
+                    isActive ? "text-lime-300" : ""
+                  }`
+                }
+                end={item.to === "/"}
+              >
+                {item.label}
+              </NavLink>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </header>
   );
 }
