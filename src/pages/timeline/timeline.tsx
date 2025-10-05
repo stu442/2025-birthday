@@ -1,27 +1,20 @@
 import { useEffect, useMemo, useState } from "react";
 
-import superMilk from "@/assets/super_milk.png";
-import magicCrystals from "@/assets/magic_crystals.png";
-import human from "@/assets/human.jpeg";
-import myself from "@/assets/myself.jpeg";
 import TimelinePost from "./components/timeline-post";
 
 const TIMELINE_DATA_URL = `${import.meta.env.BASE_URL}data/timeline.json`;
 
-const imageMap = {
-  superMilk,
-  magicCrystals,
-  human,
-  myself,
-} as const;
-
-type ImageKey = keyof typeof imageMap;
+type TimelineMediaJson =
+  | { type: "image"; src: string; alt: string }
+  | { type: "video"; src: string; alt: string; poster?: string };
 
 interface TimelinePostJson {
   title: string;
   subtitle: string;
+  date: string;
   description: string[];
-  images: Array<{ id: ImageKey; alt: string }>;
+  media: TimelineMediaJson[];
+  tags?: string[];
 }
 
 export default function Timeline() {
@@ -51,19 +44,20 @@ export default function Timeline() {
   }, []);
 
   const resolvedPosts = useMemo(() => {
-    return posts.map((post) => ({
-      ...post,
-      images: post.images.reduce<Array<{ src: string; alt: string }>>(
-        (acc, { id, alt }) => {
-          const src = imageMap[id];
-          if (src) {
-            acc.push({ src, alt });
-          }
-          return acc;
-        },
-        []
-      ),
-    }));
+    return posts
+      .filter((post) => Boolean(post.date))
+      .map((post) => ({
+        ...post,
+        tags: post.tags?.filter((tag) => tag.trim().length > 0) ?? [],
+        media: post.media
+          .filter((item) => Boolean(item.src))
+          .map((item) => ({
+            type: item.type,
+            src: item.src,
+            alt: item.alt,
+            poster: item.type === "video" ? item.poster : undefined,
+          })),
+      }));
   }, [posts]);
 
   return (
@@ -83,18 +77,24 @@ export default function Timeline() {
         <p className="text-sm text-red-300">{error}</p>
       )}
 
-      {!isLoading && !error && (
+      {!isLoading && !error && resolvedPosts.length > 0 && (
         <div className="flex w-full flex-col items-center gap-10">
           {resolvedPosts.map((post) => (
             <TimelinePost
               key={`${post.title}-${post.subtitle}`}
               title={post.title}
               subtitle={post.subtitle}
+              date={post.date}
               description={post.description}
-              images={post.images}
+              media={post.media}
+              tags={post.tags}
             />
           ))}
         </div>
+      )}
+
+      {!isLoading && !error && resolvedPosts.length === 0 && (
+        <p className="text-sm text-white/60">아직 기록된 타임라인이 없어요.</p>
       )}
     </div>
   );
