@@ -1,0 +1,557 @@
+[
+  {
+    "id": "47ac1e739b32d6e7e911817fcbea55a2",
+    "src": "/timeline/2025-10-04/IMG_6688.jpeg",
+    "fileName": "IMG_6688.jpeg",
+    "relativePath": "2025-10-04/IMG_6688.jpeg",
+    "extension": ".jpeg",
+    "mimeType": "image/jpeg",
+    "fileSize": 4796452,
+    "fileCreatedAt": "2025-10-05T08:00:26.519Z",
+    "fileModifiedAt": "2025-10-05T08:00:26.523Z",
+    "capturedAt": "2025-10-04T06:52:37.000Z",
+    "camera": {
+      "make": "Apple",
+      "model": "iPhone 16",
+      "lensModel": "iPhone 16 back dual wide camera 5.96mm f/1.6"
+    },
+    "location": {
+      "latitude": 36.255516666666665,
+      "longitude": 126.55429722222222,
+      "altitude": 26.289096811151424
+    },
+    "dimensions": {
+      "width": 4032,
+      "height": 3024
+    },
+    "orientation": null,
+    "keywords": [],
+    "settings": {
+      "iso": 32,
+      "exposureTime": "1/511",
+      "fNumber": 1.6,
+      "focalLength": 5.960000038146973
+    },
+    "metadataSource": {
+      "capturedAt": "exif:DateTimeOriginal"
+    }
+  },
+  {
+    "id": "31d18ca6f165f7dd6450ab0dfb78febf",
+    "src": "/timeline/2025-10-04/IMG_6690.jpeg",
+    "fileName": "IMG_6690.jpeg",
+    "relativePath": "2025-10-04/IMG_6690.jpeg",
+    "extension": ".jpeg",
+    "mimeType": "image/jpeg",
+    "fileSize": 2338164,
+    "fileCreatedAt": "2025-10-05T08:00:26.525Z",
+    "fileModifiedAt": "2025-10-05T08:00:26.526Z",
+    "capturedAt": "2025-10-04T06:53:40.000Z",
+    "camera": {
+      "make": "Apple",
+      "model": "iPhone 16",
+      "lensModel": "iPhone 16 back dual wide camera 5.96mm f/1.6"
+    },
+    "location": {
+      "latitude": 36.255694444444444,
+      "longitude": 126.55421388888888,
+      "altitude": 11.016513825937247
+    },
+    "dimensions": {
+      "width": 4032,
+      "height": 3024
+    },
+    "orientation": null,
+    "keywords": [],
+    "settings": {
+      "iso": 32,
+      "exposureTime": "1/973",
+      "fNumber": 1.6,
+      "focalLength": 5.960000038146973
+    },
+    "metadataSource": {
+      "capturedAt": "exif:DateTimeOriginal"
+    }
+  },
+  {
+    "id": "1d750cce5b8788399b9f5cfc5081456a",
+    "src": "/timeline/2025-10-04/IMG_6692.jpeg",
+    "fileName": "IMG_6692.jpeg",
+    "relativePath": "2025-10-04/IMG_6692.jpeg",
+    "extension": ".jpeg",
+    "mimeType": "image/jpeg",
+    "fileSize": 4235449,
+    "fileCreatedAt": "2025-10-05T08:00:26.540Z",
+    "fileModifiedAt": "2025-10-05T08:00:26.543Z",
+    "capturedAt": "2025-10-04T07:18:02.000Z",
+    "camera": {
+      "make": "Apple",
+      "model": "iPhone 16",
+      "lensModel": "iPhone 16 back dual wide camera 5.96mm f/1.6"
+    },
+    "location": {
+      "latitude": 36.25565,
+      "longitude": 126.55440555555555,
+      "altitude": 52.418857552581265
+    },
+    "dimensions": {
+      "width": 4032,
+      "height": 3024
+    },
+    "orientation": null,
+    "keywords": [],
+    "settings": {
+      "iso": 50,
+      "exposureTime": "1/566",
+      "fNumber": 1.6,
+      "focalLength": 5.960000038146973
+    },
+    "metadataSource": {
+      "capturedAt": "exif:DateTimeOriginal"
+    }
+  },
+  {
+    "id": "b275950d67923a34e33df3fa410be9bc",
+    "src": "/timeline/2025-10-04/IMG_6696.jpeg",
+    "fileName": "IMG_6696.jpeg",
+    "relativePath": "2025-10-04/IMG_6696.jpeg",
+    "extension": ".jpeg",
+    "mimeType": "image/jpeg",
+    "fileSize": 2944818,
+    "fileCreatedAt": "2025-10-05T08:00:26.544Z",
+    "fileModifiedAt": "2025-10-05T08:00:26.546Z",
+    "capturedAt": "2025-10-04T07:58:38.000Z",
+    "camera": {
+      "make": "Apple",
+      "model": "iPhone 16",
+      "lensModel": "iPhone 16 back dual wide camera 5.96mm f/1.6"
+    },
+    "location": {
+      "latitude": 36.25556944444445,
+      "longitude": 126.55448055555556,
+      "altitude": 50.451755526658
+    },
+    "dimensions": {
+      "width": 4032,
+      "height": 3024
+    },
+    "orientation": null,
+    "keywords": [],
+    "settings": {
+      "iso": 32,
+      "exposureTime": "1/586",
+      "fNumber": 1.6,
+      "focalLength": 5.960000038146973
+    },
+    "metadataSource": {
+      "capturedAt": "exif:DateTimeOriginal"
+    }
+  },
+  {
+    "id": "68c16af27c99970f05974a2f4efa4576",
+    "src": "/timeline/2025-10-04/IMG_6697.jpeg",
+    "fileName": "IMG_6697.jpeg",
+    "relativePath": "2025-10-04/IMG_6697.jpeg",
+    "extension": ".jpeg",
+    "mimeType": "image/jpeg",
+    "fileSize": 1564792,
+    "fileCreatedAt": "2025-10-05T08:00:26.547Z",
+    "fileModifiedAt": "2025-10-05T08:00:26.548Z",
+    "capturedAt": "2025-10-04T07:59:22.000Z",
+    "camera": {
+      "make": "Apple",
+      "model": "iPhone 16",
+      "lensModel": "iPhone 16 back dual wide camera 5.96mm f/1.6"
+    },
+    "location": {
+      "latitude": 36.255522222222226,
+      "longitude": 126.55431388888888,
+      "altitude": 31.256259904912838
+    },
+    "dimensions": {
+      "width": 4032,
+      "height": 3024
+    },
+    "orientation": null,
+    "keywords": [],
+    "settings": {
+      "iso": 40,
+      "exposureTime": "1/284",
+      "fNumber": 1.6,
+      "focalLength": 5.960000038146973
+    },
+    "metadataSource": {
+      "capturedAt": "exif:DateTimeOriginal"
+    }
+  },
+  {
+    "id": "bfd0d595b5b33f2a3e67a7d153c50503",
+    "src": "/timeline/2025-10-04/IMG_6699.jpeg",
+    "fileName": "IMG_6699.jpeg",
+    "relativePath": "2025-10-04/IMG_6699.jpeg",
+    "extension": ".jpeg",
+    "mimeType": "image/jpeg",
+    "fileSize": 2194999,
+    "fileCreatedAt": "2025-10-05T08:00:26.556Z",
+    "fileModifiedAt": "2025-10-05T08:00:26.557Z",
+    "capturedAt": "2025-10-04T08:46:33.000Z",
+    "camera": {
+      "make": "Apple",
+      "model": "iPhone 16",
+      "lensModel": "iPhone 16 back dual wide camera 5.96mm f/1.6"
+    },
+    "location": {
+      "latitude": 36.25548888888889,
+      "longitude": 126.55422222222222,
+      "altitude": 34.53030774013055
+    },
+    "dimensions": {
+      "width": 4032,
+      "height": 3024
+    },
+    "orientation": null,
+    "keywords": [],
+    "settings": {
+      "iso": 50,
+      "exposureTime": "1/112",
+      "fNumber": 1.6,
+      "focalLength": 5.960000038146973
+    },
+    "metadataSource": {
+      "capturedAt": "exif:DateTimeOriginal"
+    }
+  },
+  {
+    "id": "4d2846cc1654285a6bbdd347e2a482c0",
+    "src": "/timeline/2025-10-04/IMG_6709.jpeg",
+    "fileName": "IMG_6709.jpeg",
+    "relativePath": "2025-10-04/IMG_6709.jpeg",
+    "extension": ".jpeg",
+    "mimeType": "image/jpeg",
+    "fileSize": 2367193,
+    "fileCreatedAt": "2025-10-05T08:00:26.558Z",
+    "fileModifiedAt": "2025-10-05T08:00:26.560Z",
+    "capturedAt": "2025-10-04T09:27:48.000Z",
+    "camera": {
+      "make": "Apple",
+      "model": "iPhone 16",
+      "lensModel": "iPhone 16 back dual wide camera 5.96mm f/1.6"
+    },
+    "location": {
+      "latitude": 36.25555,
+      "longitude": 126.55430555555556,
+      "altitude": 20.01053236307928
+    },
+    "dimensions": {
+      "width": 4032,
+      "height": 3024
+    },
+    "orientation": null,
+    "keywords": [],
+    "settings": {
+      "iso": 400,
+      "exposureTime": "1/18",
+      "fNumber": 1.6,
+      "focalLength": 5.960000038146973
+    },
+    "metadataSource": {
+      "capturedAt": "exif:DateTimeOriginal"
+    }
+  },
+  {
+    "id": "032b591ff4b788d5b8d8ae9286909f56",
+    "src": "/timeline/2025-10-04/IMG_6718.jpeg",
+    "fileName": "IMG_6718.jpeg",
+    "relativePath": "2025-10-04/IMG_6718.jpeg",
+    "extension": ".jpeg",
+    "mimeType": "image/jpeg",
+    "fileSize": 5440737,
+    "fileCreatedAt": "2025-10-05T08:00:26.534Z",
+    "fileModifiedAt": "2025-10-05T08:00:26.538Z",
+    "capturedAt": "2025-10-04T07:04:44.000Z",
+    "camera": {
+      "make": "Apple",
+      "model": "iPhone 15",
+      "lensModel": "iPhone 15 back dual wide camera 5.96mm f/1.6"
+    },
+    "location": {
+      "latitude": 36.25557222222222,
+      "longitude": 126.55428333333333,
+      "altitude": 22.62381363244176
+    },
+    "dimensions": {
+      "width": 4032,
+      "height": 3024
+    },
+    "orientation": null,
+    "keywords": [],
+    "settings": {
+      "iso": 32,
+      "exposureTime": "1/284",
+      "fNumber": 1.6,
+      "focalLength": 5.96
+    },
+    "metadataSource": {
+      "capturedAt": "exif:DateTimeOriginal"
+    }
+  },
+  {
+    "id": "cba495b3d661a5a6386f6b06787fd974",
+    "src": "/timeline/2025-10-04/IMG_6723.jpeg",
+    "fileName": "IMG_6723.jpeg",
+    "relativePath": "2025-10-04/IMG_6723.jpeg",
+    "extension": ".jpeg",
+    "mimeType": "image/jpeg",
+    "fileSize": 4795253,
+    "fileCreatedAt": "2025-10-05T08:00:26.528Z",
+    "fileModifiedAt": "2025-10-05T08:00:26.531Z",
+    "capturedAt": "2025-10-04T07:04:36.000Z",
+    "camera": {
+      "make": "Apple",
+      "model": "iPhone 15",
+      "lensModel": "iPhone 15 back dual wide camera 1.54mm f/2.4"
+    },
+    "location": {
+      "latitude": 36.25557222222222,
+      "longitude": 126.55431388888888,
+      "altitude": 24.442234011199528
+    },
+    "dimensions": {
+      "width": 4032,
+      "height": 3024
+    },
+    "orientation": null,
+    "keywords": [],
+    "settings": {
+      "iso": 25,
+      "exposureTime": "1/99",
+      "fNumber": 2.4,
+      "focalLength": 1.54
+    },
+    "metadataSource": {
+      "capturedAt": "exif:DateTimeOriginal"
+    }
+  },
+  {
+    "id": "1fc9cdc268c1dae5afa2c9511cb8f2df",
+    "src": "/timeline/2025-10-04/IMG_6725.jpeg",
+    "fileName": "IMG_6725.jpeg",
+    "relativePath": "2025-10-04/IMG_6725.jpeg",
+    "extension": ".jpeg",
+    "mimeType": "image/jpeg",
+    "fileSize": 3435067,
+    "fileCreatedAt": "2025-10-05T08:00:26.504Z",
+    "fileModifiedAt": "2025-10-05T08:00:26.506Z",
+    "capturedAt": "2025-10-04T05:36:27.000Z",
+    "camera": {
+      "make": "Apple",
+      "model": "iPhone 15",
+      "lensModel": "iPhone 15 back dual wide camera 5.96mm f/1.6"
+    },
+    "location": {
+      "latitude": 36.32653055555556,
+      "longitude": 126.50885833333334,
+      "altitude": 12.176436335403727
+    },
+    "dimensions": {
+      "width": 4032,
+      "height": 3024
+    },
+    "orientation": null,
+    "keywords": [],
+    "settings": {
+      "iso": 32,
+      "exposureTime": "1/302",
+      "fNumber": 1.6,
+      "focalLength": 5.96
+    },
+    "metadataSource": {
+      "capturedAt": "exif:DateTimeOriginal"
+    }
+  },
+  {
+    "id": "3ce3ce18f6aa663d760637e0f4a718b4",
+    "src": "/timeline/2025-10-07/IMG_6739.jpeg",
+    "fileName": "IMG_6739.jpeg",
+    "relativePath": "2025-10-07/IMG_6739.jpeg",
+    "extension": ".jpeg",
+    "mimeType": "image/jpeg",
+    "fileSize": 2141767,
+    "fileCreatedAt": "2025-10-08T06:36:14.602Z",
+    "fileModifiedAt": "2025-10-08T06:36:14.605Z",
+    "capturedAt": "2025-10-07T04:01:28.000Z",
+    "camera": {
+      "make": "Apple",
+      "model": "iPhone 16",
+      "lensModel": "iPhone 16 back dual wide camera 5.96mm f/1.6"
+    },
+    "location": {
+      "latitude": 36.359919444444444,
+      "longitude": 126.60134166666666,
+      "altitude": 24.23073509835823
+    },
+    "dimensions": {
+      "width": 4032,
+      "height": 3024
+    },
+    "orientation": null,
+    "keywords": [],
+    "settings": {
+      "iso": 40,
+      "exposureTime": "1/60",
+      "fNumber": 1.6,
+      "focalLength": 5.960000038146973
+    },
+    "metadataSource": {
+      "capturedAt": "exif:DateTimeOriginal"
+    }
+  },
+  {
+    "id": "3e19435360a8c0c11ae108299700ebe7",
+    "src": "/timeline/2025-10-07/IMG_6740.jpeg",
+    "fileName": "IMG_6740.jpeg",
+    "relativePath": "2025-10-07/IMG_6740.jpeg",
+    "extension": ".jpeg",
+    "mimeType": "image/jpeg",
+    "fileSize": 2681516,
+    "fileCreatedAt": "2025-10-08T06:36:14.609Z",
+    "fileModifiedAt": "2025-10-08T06:36:14.613Z",
+    "capturedAt": "2025-10-07T04:03:42.000Z",
+    "camera": {
+      "make": "Apple",
+      "model": "iPhone 16",
+      "lensModel": "iPhone 16 back dual wide camera 5.96mm f/1.6"
+    },
+    "location": {
+      "latitude": 36.359747222222225,
+      "longitude": 126.60164722222221,
+      "altitude": 24.23073509835823
+    },
+    "dimensions": {
+      "width": 4032,
+      "height": 3024
+    },
+    "orientation": null,
+    "keywords": [],
+    "settings": {
+      "iso": 50,
+      "exposureTime": "1/60",
+      "fNumber": 1.6,
+      "focalLength": 5.960000038146973
+    },
+    "metadataSource": {
+      "capturedAt": "exif:DateTimeOriginal"
+    }
+  },
+  {
+    "id": "1f0e365e4aa318430f5dd50444a0127b",
+    "src": "/timeline/2025-10-07/IMG_6742.jpeg",
+    "fileName": "IMG_6742.jpeg",
+    "relativePath": "2025-10-07/IMG_6742.jpeg",
+    "extension": ".jpeg",
+    "mimeType": "image/jpeg",
+    "fileSize": 2231015,
+    "fileCreatedAt": "2025-10-08T06:36:14.616Z",
+    "fileModifiedAt": "2025-10-08T06:36:14.618Z",
+    "capturedAt": "2025-10-07T04:05:24.000Z",
+    "camera": {
+      "make": "Apple",
+      "model": "iPhone 16",
+      "lensModel": "iPhone 16 back dual wide camera 5.96mm f/1.6"
+    },
+    "location": {
+      "latitude": 36.35981944444445,
+      "longitude": 126.60138055555555,
+      "altitude": 24.703884152118015
+    },
+    "dimensions": {
+      "width": 4032,
+      "height": 3024
+    },
+    "orientation": null,
+    "keywords": [],
+    "settings": {
+      "iso": 40,
+      "exposureTime": "1/60",
+      "fNumber": 1.6,
+      "focalLength": 5.960000038146973
+    },
+    "metadataSource": {
+      "capturedAt": "exif:DateTimeOriginal"
+    }
+  },
+  {
+    "id": "e70641f1fc1f41268ab1614d828ee673",
+    "src": "/timeline/2025-10-07/IMG_6743.jpeg",
+    "fileName": "IMG_6743.jpeg",
+    "relativePath": "2025-10-07/IMG_6743.jpeg",
+    "extension": ".jpeg",
+    "mimeType": "image/jpeg",
+    "fileSize": 3599740,
+    "fileCreatedAt": "2025-10-08T06:36:14.632Z",
+    "fileModifiedAt": "2025-10-08T06:36:14.635Z",
+    "capturedAt": "2025-10-07T04:17:25.000Z",
+    "camera": {
+      "make": "Apple",
+      "model": "iPhone 16",
+      "lensModel": "iPhone 16 back dual wide camera 2.22mm f/2.2"
+    },
+    "location": {
+      "latitude": 36.359855555555555,
+      "longitude": 126.60143888888888,
+      "altitude": 24.23073509835823
+    },
+    "dimensions": {
+      "width": 4032,
+      "height": 3024
+    },
+    "orientation": null,
+    "keywords": [],
+    "settings": {
+      "iso": 160,
+      "exposureTime": "1/120",
+      "fNumber": 2.2,
+      "focalLength": 2.220000028611935
+    },
+    "metadataSource": {
+      "capturedAt": "exif:DateTimeOriginal"
+    }
+  },
+  {
+    "id": "c4cdff8a15fb6d9c612891de2e6693a0",
+    "src": "/timeline/2025-10-07/IMG_6744.jpeg",
+    "fileName": "IMG_6744.jpeg",
+    "relativePath": "2025-10-07/IMG_6744.jpeg",
+    "extension": ".jpeg",
+    "mimeType": "image/jpeg",
+    "fileSize": 3206832,
+    "fileCreatedAt": "2025-10-08T06:36:14.640Z",
+    "fileModifiedAt": "2025-10-08T06:36:14.642Z",
+    "capturedAt": "2025-10-07T04:18:11.000Z",
+    "camera": {
+      "make": "Apple",
+      "model": "iPhone 16",
+      "lensModel": "iPhone 16 back dual wide camera 5.96mm f/1.6"
+    },
+    "location": {
+      "latitude": 36.35986666666667,
+      "longitude": 126.60143888888888,
+      "altitude": 24.23073509835823
+    },
+    "dimensions": {
+      "width": 4032,
+      "height": 3024
+    },
+    "orientation": null,
+    "keywords": [],
+    "settings": {
+      "iso": 100,
+      "exposureTime": "1/60",
+      "fNumber": 1.6,
+      "focalLength": 5.960000038146973
+    },
+    "metadataSource": {
+      "capturedAt": "exif:DateTimeOriginal"
+    }
+  }
+]
